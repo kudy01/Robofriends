@@ -18,7 +18,7 @@ render(){
 	if (this.state.hasError){
 		return <h1>Oops. You made an error</h1> 
 	}
-	return this.props.children
+	return this.props.children // everything else inside app.js will function properly
 }
 
 }
